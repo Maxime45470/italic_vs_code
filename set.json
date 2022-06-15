@@ -1,0 +1,114 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "liveServer.settings.donotVerifyTags": true,
+    "git.confirmSync": false,
+    "tabnine.experimentalAutoImports": true,
+    "php.validate.executablePath": "C:\\wamp64\\bin\\php\\php7.4.26",
+    "files.autoSave": "afterDelay",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "javascript": true,
+        "html": true,
+        "css": true,
+        "php": true,
+        "sql": false
+    },
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "workbench.startupEditor": "none",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1654974698922,
+    "[php]": {
+        "editor.defaultFormatter": "zobo.php-intellisense"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.fontWeight": "normal",
+    "editor.fontSize": 20,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Cascadia Code'",
+
+
+    "editor.tokenColorCustomizations":{
+        "textMateRules": [
+            {
+                "scope": [
+                    
+                    "keyword",
+                    "storage.modifier",
+                    "storage.type.class.js",
+                    "storage.type.js",
+                    "entity.name.tag",
+                    "entity.other.attribute-name.class.css",
+                    "support.type.property-name",
+                    "support.function"
+                ],
+                "settings": {
+                    "fontStyle": "italic bold",
+                }
+            },
+                {
+                    "scope": "support.function.construct.php",
+                    "settings": {
+                        "fontStyle": "italic bold",
+                        "foreground": "#ff009d"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.string.end.php , punctuation.definition.string.begin.php",
+                    "settings": {
+                        "foreground": "#ff5e00"
+                    }
+
+                    
+                },
+                {
+                    "scope": "meta.embedded",
+                    "settings": {
+                        "foreground": "#e5f2f4"
+                    }
+                },
+                {
+                    
+
+                "scope": [
+                    "keyword.control.conditional",
+                    "keyword.operator",
+                    "entity"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+                    {
+                        "scope": "storage.type.function.php",
+                        "settings": {
+                            "fontStyle": "bold",
+                            "foreground": "#008000"
+                        }
+                    },
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "fontStyle": "italic bold",
+                        "foreground": "#00ff2aab"
+                    }
+                },
+            {
+                "scope": [
+                    "string"
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                    
+                }
+            }
+        ]
+    },
+}
